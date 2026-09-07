@@ -33,7 +33,7 @@ public class utama {
             "RM003"
         );
 
-        // Memanggil method
+     
         pasien1.tampilkanInformasi();
 
         System.out.println();
