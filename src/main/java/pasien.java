@@ -9,13 +9,13 @@
  */
     public class pasien {
 
-    // Field
+    // fiield
     String nama;
     int umur;
     String jenisKelamin;
     String nomorRekamMedis;
 
-    // Constructor
+    // constructor pasiennn
     public pasien(String nama, int umur, String jenisKelamin, String nomorRekamMedis) {
         this.nama = nama;
         this.umur = umur;
@@ -23,7 +23,7 @@
         this.nomorRekamMedis = nomorRekamMedis;
     }
 
-    // Method
+    // methodd
     public void tampilkanInformasi() {
         System.out.println("Nomor Rekam Medis : " + nomorRekamMedis);
         System.out.println("Nama               : " + nama);
