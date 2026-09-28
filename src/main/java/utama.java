@@ -33,7 +33,16 @@ public class utama {
             "RM003"
         );
 
-     
+        dokter dokter1 = new dokter(
+            "Dr. Ahmad",
+            "Penyakit Dalam",
+            "D001"
+        );
+
+        dokter1.setSpesialis("Jantung");
+
+        dokter1.tampilkanInformasi();
+
         pasien1.tampilkanInformasi();
 
         System.out.println();
@@ -43,5 +52,18 @@ public class utama {
         System.out.println();
 
         pasien3.tampilkanInformasi();
+
+        pasienRawatInap pasien4 = new pasienRawatInap(
+            "Rudi",
+            35,
+            "Laki-laki",
+            "RM004",
+            "A-102",
+            5
+        );
+
+        System.out.println();
+
+        pasien4.tampilkanInformasi();
     }
 }
