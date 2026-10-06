@@ -61,6 +61,36 @@ public class utama {
             "A-102",
             5
         );
+        
+        System.out.println();
+
+pegawaiRumahSakit pegawai1 = new dokterSpesialis(
+    "Dr. Budi",
+    "D002",
+    "Bedah"
+);
+
+pegawaiRumahSakit pegawai2 = new perawat(
+    "Sari",
+    "P001",
+    "Rawat Inap"
+);
+
+pegawai1.tampilkanInformasi();
+
+System.out.println();
+
+pegawai2.tampilkanInformasi();
+
+System.out.println();
+
+perawat perawat1 = new perawat(
+    "Dina",
+    "P002",
+    "Poliklinik"
+);
+
+perawat1.mulaiBertugas();
 
         System.out.println();
 
